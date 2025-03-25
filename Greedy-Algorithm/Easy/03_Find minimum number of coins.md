@@ -71,9 +71,9 @@ For `coins = [1, 2, 5, 10]` and `amount = 27`:
 - Use one coin of `10`.
 - Use one coin of `10`.
 - Use one coin of `5`.
-- Use two coins of `1`.
+- Use one coins of `2`.
 
-Total: 5 coins.
+Total: 4 coins.
 
 ---
 
