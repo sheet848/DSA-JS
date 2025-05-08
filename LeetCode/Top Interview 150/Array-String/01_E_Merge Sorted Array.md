@@ -24,3 +24,15 @@ var merge = function(nums1, m, nums2, n) {
     }
 };
 ```
+```
+let nums1 = [1, 2, 3, 0, 0, 0];
+let m = 3;
+let nums2 = [2, 5, 6];
+let n = 3;
+
+merge(nums1, m, nums2, n);
+
+console.log(nums1); // Output: [1, 2, 2, 3, 5, 6]
+```
+
+This approach runs in O(m + n) time and uses O(1) extra space.
