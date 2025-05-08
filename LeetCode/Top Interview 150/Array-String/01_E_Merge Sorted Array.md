@@ -1,3 +1,5 @@
+You can solve this efficiently in-place using the two-pointer technique, starting from the end of both arrays. Since nums1 has enough space to hold all elements of both arrays, we fill it from the back to avoid overwriting values we still need to compare.
+
 ```
 var merge = function(nums1, m, nums2, n) {
     let p1 = m - 1;
